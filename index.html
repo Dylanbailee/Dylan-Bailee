@@ -9,9 +9,9 @@
   </title>
 
   <style>
-  header {
-    text-align: center;
-  }
+    header {
+      text-align: center;
+    }
     body {
       font-family: Verdana;
       color: white;
@@ -20,35 +20,84 @@
     }
 
     .logo-img {
-      width: 1333px;
-    }
-    nav ul {
-      background-color: #FFFFFF;
+      width: 100%;
+      height: 29vw;
+      background-image: url("./img/profile.png");
+      background-position: 0 0;
+      background-size: cover;
+      text-indent: -9999px;
       margin: 0;
-      padding: 0;
-      list-style-type: none;
-      text-align: center;
-      height: 40px;
-      padding-top: 20px;
     }
 
-    nav li {
+    .menu ul {
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 15px;
+    list-style-type: none;
+    text-align: center;
+    padding-top: 20px;
+    }
+
+    .menu li {
       display: inline;
     }
 
-    nav li a {
+    .menu li a {
       text-decoration: none;
-      margin: 0;
+      margin-bottom: 5px;
       padding: .4em 2em;
       color: #FFFFFF;
       background-color: #000000;
+      display: inline-block;
     }
 
-    nav ul li a:hover {
+    .menu ul li a:hover {
       color: #000000;
       background-color: #FFFFFF;
     }
 
+    .links ul{
+      background-color: #FFFFFF;
+      margin: 0;
+      padding: 15px;
+      list-style-type: none;
+      text-align: center;
+      padding-top: 20px;
+    }
+
+    .links li {
+      display: inline;
+    }
+
+    .links li a {
+      text-decoration: none;
+      margin-bottom: 5px;
+      display: inline-block;
+    }
+
+    .share-2 {
+      width: 70px;
+      height: 70px;
+      background-size: contain;
+    }
+    .soundcloud {
+      background-image: url(./img/soundcloud.png);
+    }
+    .soundcloud:hover {
+      background-image: url(./img/soundcloud-invert.png);
+    }
+    .facebook {
+      background-image: url(./img/facebook.png);
+    }
+    .facebook:hover {
+      background-image: url(./img/facebook-invert.png);
+    }
+    .instagram {
+      background-image: url(./img/instagram.png);
+    }
+    .instagram:hover {
+      background-image: url(./img/instagram-invert.png);
+    }
     h2  { 
       font-size: 20px;
     }
@@ -66,14 +115,18 @@
 </head>
 
 <body>
+
   <header>
-    <img class="logo-img" src="./img/profile.png" alt="Logo File">
+    <h1 class="logo-img">
+      Dylan Bailee
+    </h1>
   </header>
+
   <div class="container">
   
   <section class="nav">
 
-    <nav>
+    <nav class="menu">
       <ul>
         <li><a href="#home">Home</a></li>
         <li><a href="#dj">DJ Service</a></li>
@@ -92,25 +145,6 @@
       Dylan Bailee prides himself on providing a highly professional service ensuring that the quality of his work is always paramount, whatever the occasion – personal and corporate.
     </p>
   
-  </section>
-    
-  <section class="share">
-
-    <h2>
-      Share
-    </h2>
-    <p>
-      Share our service with your friends and family
-    </p>
-
-    <nav class="links">
-      <ul>
-        <li><a href="https://www.soundcloud.com/dylan-bailee/">Soundcloud</a></li>
-        <li><a href="https://www.facebook.com/dylan.bailee.ent/">Facebook</a></li>
-        <li><a href="https://www.instagram.com/dylanbaileedj/">Instagram</a></li>
-      </ul>
-    </nav>
-
   </section>
 
   <section class="service">
@@ -179,6 +213,28 @@
     </p>
 
     </section>
+
+    <section class="share">
+
+    <h2>
+      Share
+    </h2>
+
+    <p>
+      Share our service with your friends and family
+    </p>
+
+
+    <nav class="links">
+      <ul>
+        <li><a href="https://www.soundcloud.com/dylan-bailee/" ><div class="share-2 soundcloud"></div></a></li>
+        <li><a href="https://www.facebook.com/dylan.bailee.ent/" ><div class="share-2 facebook"></div></a></li>
+        <li><a href="https://www.instagram.com/dylanbaileedj/"><div class="share-2 instagram"></div></a></li>
+      </ul>
+
+    </nav>
+
+  </section>
 
 </body>
 
