@@ -12,30 +12,36 @@
     header {
       text-align: center;
     }
-    body {
-      font-family: Verdana;
-      color: white;
-      background-color: black;
+
+   body {
+      font-family: "franklin gothic medium";
+      font-size: 15pt;
+      color: #171717;
+      background-color: #F8F8F8;
       text-align: center;
+      margin-left: 50px;
+      margin-right: 50px;
+      margin-bottom: 0px;
+      margin-top: 0px;
     }
 
     .logo-img {
       width: 100%;
       height: 29vw;
       background-image: url("./img/profile.png");
-      background-position: 0 0;
+      background-position: center;
       background-size: cover;
       text-indent: -9999px;
       margin: 0;
     }
 
     .menu ul {
-    background-color: #FFFFFF;
-    margin: 0;
-    padding: 15px;
-    list-style-type: none;
-    text-align: center;
-    padding-top: 20px;
+      background-color: #000000;
+      margin: 0;
+      padding: 15px;
+      list-style-type: none;
+      text-align: center;
+      padding-top: 20px;
     }
 
     .menu li {
@@ -56,8 +62,8 @@
       background-color: #FFFFFF;
     }
 
-    .links ul{
-      background-color: #FFFFFF;
+    .links ul {
+      background-color: #F8F8F8;
       margin: 0;
       padding: 15px;
       list-style-type: none;
@@ -80,38 +86,58 @@
       height: 70px;
       background-size: contain;
     }
+
     .soundcloud {
       background-image: url(./img/soundcloud.png);
     }
     .soundcloud:hover {
       background-image: url(./img/soundcloud-invert.png);
     }
+
     .facebook {
       background-image: url(./img/facebook.png);
     }
+
     .facebook:hover {
       background-image: url(./img/facebook-invert.png);
     }
+
     .instagram {
       background-image: url(./img/instagram.png);
     }
+
     .instagram:hover {
       background-image: url(./img/instagram-invert.png);
     }
-    h2  { 
-      font-size: 20px;
-      margin: 40px;
+
+    .professional {
+      background-color: #000000;
+      color: #FFFFFF;
       padding: 20px;
-      background color: 
+      margin: 0;
+      padding-top: 25px;
+      height: 30px;
     }
 
-    h3  {
+    h2 { 
+      font-size: 20px;
+      margin: 0px;
+      padding: 20px;
+      background-color: #FFFFFF;
+    }
+
+    h3 {
       font-size: 16px;
-      margin: 20px;
+      margin: 0px;
+      padding: 20px;
+      background-color: #FFFFFF;
     }
 
-    p   {
-
+    p {
+      background-color: #FFFFFF;
+      padding: 40px;
+      margin: 0px;
+      font-size: 15pt;
     }
 
   </style>
@@ -120,14 +146,6 @@
 
 <body>
 
-  <header>
-    <h1 class="logo-img">
-      Dylan Bailee
-    </h1>
-  </header>
-
-  <div class="container">
-  
   <section class="nav">
 
     <nav class="menu">
@@ -141,7 +159,17 @@
       </ul>
     </nav>
 
-    <h2>
+  </section>
+
+  <header>
+    <h1 class="logo-img">
+      Dylan Bailee
+    </h1>
+  </header>
+
+  <div class="container">
+
+    <h2 class="professional">
       Professional DJ / Producer
     </h2>
 
@@ -149,7 +177,7 @@
       Dylan Bailee prides himself on providing a highly professional service ensuring that the quality of his work is always paramount, whatever the occasion – personal and corporate.
     </p>
   
-  </section>
+
 
   <section class="service">
     <h2>
