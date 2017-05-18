@@ -169,6 +169,26 @@
       padding-top: 30px;
     }
 
+    .embeded-1 {
+      text-align: left;
+/*      padding-right: 100px;*/
+    }
+
+    .embeded-1, .embeded-2 {
+      display: inline;
+      background-color: #FFFFFF;
+      text-align: center;
+    }
+
+    .embeded-2 {
+      text-align: right;
+/*      padding-left: 0px;*/
+    }
+
+    .embeded {
+      padding: 5px;
+      background-color: #FFFFFF;
+    }
   </style>
 
 </head>
@@ -179,10 +199,10 @@
 
     <nav class="menu">
       <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#dj">DJ Service</a></li>
+<!--         <li><a href="#home">Home</a></li> -->
+        <li><a href="#featured">Featured</a></li>
         <li><a href="#about">About Me</a></li>
-        <li><a href="#news">News/Updates</a></li>
+        <li><a href="#dj">DJ Service</a></li>
         <li><a href="#contact">Contact</a></li>
         <li><a href="#share">Share</a></li>
       </ul>
@@ -205,11 +225,38 @@
     <p class="intro">
       Dylan Bailee prides himself on providing a highly professional service ensuring that the quality of his work is always paramount, whatever the occasion – personal and corporate.
     </p>
-  
-<img src="./img/break.png" class="break-img">
+
+  <img src="./img/break.png" class="break-img">
+
+  <section class="featured">
+
+    <h2 id="featured">
+      Featured
+    </h2>
+
+    <section class="embeded">
+
+     <div class="embeded-1">
+
+       <iframe width="49%" height="225" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/306156295&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true">
+         </iframe>
+
+     </div>
+
+     <div class="embeded-2">
+
+       <iframe width="49%" height="225" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/259445598&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+
+     </div>
+
+    </section>
+
+  </section>
+
+    <img src="./img/break.png" class="break-img">
 
   <section class="service">
-    <h2>
+    <h2 id="dj">
       DJ Services
     </h2>
 
@@ -227,7 +274,7 @@
 
   <section class="about">
 
-    <h2>
+    <h2 id="about">
       About Me
     </h2>
 
@@ -245,23 +292,34 @@
 
 <img src="./img/break.png" class="break-img">
 
-  <section class="news">
+<!--   <section class="featured">
 
-    <h2>
-      Latest News and Updates
+    <h2 id="featured">
+      Featured
     </h2>
 
-    <p>
-      Insert Info here
-    </p>
+    <section class="embeded">
 
-  </section>
+     <div class="embeded-1">
 
-<img src="./img/break.png" class="break-img">
+       <iframe width="49%" height="225" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/306156295&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true">
+         </iframe>
+
+     </div>
+
+     <div class="embeded-2">
+
+       <iframe width="49%" height="225" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/259445598&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+
+     </div>
+
+    </section>
+
+  </section> -->
 
   <section class="contact">
 
-    <h2>
+    <h2 id="contact">
       Contact
     </h2>
 
@@ -284,7 +342,7 @@
 
     <section class="share">
 
-    <h2>
+    <h2 id="share">
       Share
     </h2>
 
