@@ -25,6 +25,10 @@
       margin-top: 15px;
     }
 
+   .everything {
+      background-color: #FFFFFF;
+}
+
     .logo-img {
       width: 100%;
       height: 29vw;
@@ -35,19 +39,15 @@
       margin: 0;
     }
 
-   .break-img {
-    width: 15%;
-    height: 2.2505vw;
-    background-position: center;
-    padding-top: 100px;
-/*    padding-left: 530px;
-    padding-right: 532px;*/
-    margin-top: 0px;
-    margin-bottom: -5px;
-    }
-
-    .break-wrap {
-      background-color: #FFFFFF;
+    .break-img {
+      width: 15%;
+      height: 2.2505vw;
+      background-position: center;
+      padding-top: 100px;
+    /*padding-left: 530px;
+      padding-right: 532px;*/
+      margin-top: 0px;
+      margin-bottom: -5px;
     }
 
     .menu ul {
@@ -149,7 +149,6 @@
       font-size: 30px;
       margin: 0px;
       padding: 20px;
-      background-color: #FFFFFF;
       padding-top: 100px;
     }
 
@@ -157,11 +156,9 @@
       font-size: 26px;
       margin: 0px;
       padding: 20px;
-      background-color: #FFFFFF;
     }
 
     p {
-      background-color: #FFFFFF;
       line-height: 1.5;
 /*      padding: 40px;*/
       margin: 0px;
@@ -183,7 +180,6 @@
 
     .embeded-1, .embeded-2 {
       display: inline;
-      background-color: #FFFFFF;
       text-align: center;
     }
 
@@ -194,13 +190,14 @@
 
     .embeded {
       padding: 5px;
-      background-color: #FFFFFF;
     }
 
   </style>
 
 </head>
+  <!-- <link rel="stylesheet" type="text/css" href="aos.css"> -->
   <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.css">
 <body>
 
   <section class="nav">
@@ -229,27 +226,34 @@
     <h2 class="professional">
       Professional DJ / Producer
     </h2>
+<div class="everything">
 
     <p class="intro">
       Dylan Bailee prides himself on providing a highly professional service ensuring that the quality of his work is always paramount, whatever the occasion – personal and corporate.
     </p>
 
+
+
   <section class="featured">
+
+<div data-aos="fade-down">
 
     <h2 id="featured">
       Featured
     </h2>
 
+</div>
+
     <section class="embeded">
 
-     <div class="embeded-1">
+      <div class="embeded-1" data-aos="fade-right">
 
        <iframe width="49%" height="225" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/306156295&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true">
          </iframe>
 
-     </div>
+      </div>
 
-     <div class="embeded-2">
+     <div class="embeded-2" data-aos="fade-left">
 
        <iframe width="49%" height="225" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/259445598&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
 
@@ -264,6 +268,8 @@
 <img src="./img/break.png" class="break-img">
 
 </div>
+
+<div data-aos="fade-up">
 
   <section class="service">
     <h2 id="dj">
@@ -280,11 +286,15 @@
 
   </section>
 
-<div class="break-wrap">
+</div>
+
+  <div class="break-wrap">
 
 <img src="./img/break.png" class="break-img">
 
-</div>
+  </div>
+
+<div data-aos="fade-up">
 
   <section class="about">
 
@@ -301,39 +311,16 @@
     </p>
 
   </section>
-  
-  </div>
-
-<div class="break-wrap">
-
-<img src="./img/break.png" class="break-img">
 
 </div>
 
-<!--   <section class="featured">
+  <div class="break-wrap">
 
-    <h2 id="featured">
-      Featured
-    </h2>
+<img src="./img/break.png" class="break-img">
 
-    <section class="embeded">
+  </div>
 
-     <div class="embeded-1">
-
-       <iframe width="49%" height="225" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/306156295&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true">
-         </iframe>
-
-     </div>
-
-     <div class="embeded-2">
-
-       <iframe width="49%" height="225" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/259445598&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
-
-     </div>
-
-    </section>
-
-  </section> -->
+<div data-aos="fade-up">
 
   <section class="contact">
 
@@ -356,11 +343,15 @@
 
     </section>
 
-<div class="break-wrap">
+</div>
+
+  <div class="break-wrap">
 
 <img src="./img/break.png" class="break-img">
 
-</div>
+  </div>
+
+<div data-aos="fade-up">
 
     <section class="share">
 
@@ -372,18 +363,26 @@
       Share our service with your friends and family
     </p>
 
-
+  </div>
+</div>
     <nav class="links">
       <ul>
+      <div data-aos="fade-up">
         <li><a href="https://www.soundcloud.com/dylan-bailee/" ><div class="share-2 soundcloud"></div></a></li>
         <li><a href="https://www.facebook.com/dylan.bailee.ent/" ><div class="share-2 facebook"></div></a></li>
         <li><a href="https://www.instagram.com/dylanbaileedj/"><div class="share-2 instagram"></div></a></li>
+        </div>
       </ul>
 
     </nav>
 
   </section>
-
+<br>
+<br>
+<br>
+<!-- <script type="text/javascript" src="aos.js"></script> -->
+<script type="text/javascript" src="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.js"></script>
+<script type="text/javascript" src="Index.js"></script>
 </body>
 
 </html>
